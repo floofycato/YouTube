@@ -1,0 +1,178 @@
+
+* {
+  font-family: Roboto, Arial, sans-serif;
+  color: rgb(94, 91, 91);
+  margin: 0;
+  font-size: 14px;
+}
+
+.thumbnail {
+  width: 300px;
+}
+
+.search-bar {
+  border-radius: 20px;
+  padding: 12px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.15);
+  border: none;
+  width: 300px;
+}
+
+/*linked-in*/
+
+.linkedin-email-bar {
+  padding: 8px;
+  border: 2px solid rgb(99, 99, 99);
+  width: 330px;
+  border-radius: 3px;
+}
+
+.linkedin-email-text {
+  margin: 50px 0px 8px;
+}
+
+.linkedin-email-description {
+  margin: 25px 0 0;
+}
+
+.linkedin-email-button {
+  padding: 15px 15px 15px;
+  color: white;
+  background-color: rgb(0, 160, 220);
+  border: none;
+  border-radius: 35px;
+  margin-top: 25px;
+  width: 350px; 
+  font-size: 18px;
+  font-weight: 500;
+}
+
+
+/*twitter*/
+
+.twitter-tweet {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  vertical-align: middle;
+  padding: 15px 20px 15px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.15);
+  display: block;
+  width: 470px;
+}
+
+.twitter-image {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  object-position: right;
+  border-radius: 50px;
+  vertical-align: middle;
+}
+
+.twitter-bar {
+  font-size: 18px;
+  margin-left: 10px;
+  padding: 12px 12px 12px;
+  border: none;
+  width: fit-content;
+}
+
+.twitter-button {
+  margin-left: 50px;
+  padding: 10px 20px 10px;
+  background-color: #1DA1F2;
+  color: #F5F8FA;
+  border-radius: 20px;
+  border: none;
+  font-weight: 600;
+}
+
+/*div*/
+
+.square {
+  background-color: red;
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+}
+
+.circle {
+  background-color: green;
+  width: 100px;
+  height: 100px;
+  border-radius: 150px;
+  display: inline-block;
+}
+
+.cat-boxes {
+  margin: 100px 10px 100px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.15);
+  display: inline-block;
+}
+
+.cat-texts {
+  padding: 10px;
+}
+
+.cat-boxes img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.cat-boxes .name {
+  font-weight: 700;
+  font-size: 18px;
+  color: black;
+  margin-top: 2px;
+}
+
+.cat-boxes .mutual-friends {
+  font-size: 14px;
+  color: gray;
+  margin-top: 3px;
+}
+
+.cat-boxes button {
+  padding: 10px 20px 10px;
+  background-color: #1DA1F2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-top: 14px;
+}
+
+.google {
+  margin: 100px 0 100px;
+}
+
+.google div {
+  text-align: center;
+}
+
+.google img {
+  width: 400px;
+  height: 120px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.google input {
+  border-radius: 20px;
+  padding: 12px 25px 12px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.15);
+  border: none;
+  width: 500px;
+  margin-bottom: 30px;
+}
+
+.google button {
+  background-color: rgb(240, 240, 240);
+  padding: 15px 20px 15px;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  margin-top: 14px;
+  display: inline-block;
+}
