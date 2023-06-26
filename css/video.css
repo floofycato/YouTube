@@ -1,24 +1,12 @@
-
-p {
-  font-family: Roboto, Arial, sans-serif;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-.search-bar {
-  display: block;
-}
-
-.video-preview {
-  width: 300px;
-  display: inline-block;
-  vertical-align: top;
-  margin-right: 15px;
+.video-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 16px;
+  row-gap: 40px;
 }
 
 .thumbnail {
-  width: 300px;
-  display: block;
+  width: 100%;
 }
 
 .thumbnail-row {
@@ -40,7 +28,6 @@ p {
   font-size: 14px;
   font-weight: 500;
   line-height: 20px;
-  
 }
 
 .video-author,
