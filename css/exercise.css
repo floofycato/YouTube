@@ -166,6 +166,7 @@ body {
   border-radius: 5px;
   margin-top: 14px;
   display: block;
+  font-weight: 700;
 }
 
 .google {
@@ -266,3 +267,174 @@ body {
   width: 100px;
   border-radius: 5px;
 }
+
+.cat-fb-box {
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.15);
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+
+}
+
+.cat-fb {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px 20px;
+  flex: 1;
+}
+
+.cat-fb img {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  object-fit: cover;
+}
+
+.cat-fb .text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  line-height: 23px;
+}
+
+.cat-fb p {
+  font-size: 18px;
+}
+
+.cat-fb .name {
+  font-weight: 700;
+  color: black;
+}
+
+.cat-fb .popularity {
+  font-size: 14px;
+}
+
+.cat-fb button {
+  padding: 10px 20px 10px;
+  background-color: #1DA1F2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.inbox-box {
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.15);
+  margin: 50px;
+  width: 360px;
+  padding: 10px 18px 10px;
+}
+
+.inbox-box p {
+  color: rgb(104, 104, 104);
+}
+
+.inbox-type {
+  margin-bottom: 22px;
+}
+
+.inbox-box img {
+  width: 54px;
+  height: 54px;
+  border-radius: 27px;
+}
+
+.message-box {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.message-texts {
+  flex: 1;
+  margin-left: 10px;
+}
+
+.message-texts p {
+  padding-bottom: 6px;
+}
+
+.message-title {
+  display: flex;
+  justify-content: space space-between;
+}
+
+.message-title .sender {
+  font-size: 16px;
+  font-weight: 700;
+  color: black;
+}
+
+.message-texts .subject {
+  font-weight: 700;
+  color: black;
+}
+
+.message-title .sender {
+  flex: 1;
+}
+
+.tweet-box {
+  margin: 30px;
+  padding: 20px;
+  display: flex;
+  width: 410px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.15);
+}
+
+.tweet {
+  margin-left: 12px;
+}
+
+.tweet-box p {
+  font-size: 16px;
+  line-height: 24px;
+  color: black;
+  font-weight: 100;
+}
+
+.tweet-box .user-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+}
+
+.user {
+  display: flex;
+}
+
+.user .username-bold {
+  font-weight: 800;
+  padding-right: 5px;
+}
+
+.user .username-lighter,
+.link-box .link-url {
+  color: rgb(112, 111, 111);
+}
+
+.link-box {
+  margin-top: 16px;
+  display: flex;
+  border: 1px solid lightgray;
+  border-radius: 24px;
+  overflow: hidden;
+}
+
+.link-image {
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+  object-position: center;
+  background-color: lightgray;
+}
+
+.link-details {
+  flex: 1;
+  padding: 14px;
+}
+
