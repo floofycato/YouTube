@@ -32,8 +32,6 @@
 
 .video-preview {
   padding: 4px;
-  display: flex;
-  flex-direction: column;
 }
 
 .thumbnail {
@@ -42,21 +40,20 @@
 
 .thumbnail-row {
   overflow: hidden;
-  background-color: black;
   margin-bottom: 8px;
   position: relative;
 }
 
 .thumbnail-row img:hover {
   transform: scale(1.03);
-  opacity: 0.7;
-  transition: opacity 0.4s, transform 0.4s;
+  filter: brightness(50%);
+  transition: filter 0.4s, transform 0.4s;
 }
 
 .thumbnail-row img:active {
   transform: scale(1.03);
-  opacity: 1;
-  transition: opacity 0.4s, transform 0.4s;
+  filter: none;
+  transition: filter 0.4s, transform 0.4s;
 }
 
 .video-time {
@@ -109,10 +106,6 @@
   border-radius: 25px;
 }
 
-.channel-info {
-  padding-top: 5px;
-}
-
 .channel-tooltip .subscribers {
   color: gray;
   font-size: 12px;
@@ -122,6 +115,8 @@
 .channel-info {
   margin-left: 10px;
   flex: 1;
+  align-self: baseline;
+  padding-top: 2px;
 }
 
 .channel-tooltip .channel-name {
