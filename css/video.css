@@ -32,6 +32,8 @@
 
 .video-preview {
   padding: 4px;
+  display: flex;
+  flex-direction: column;
 }
 
 .thumbnail {
