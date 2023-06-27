@@ -1,5 +1,5 @@
 .header {
-  height: 55px;
+  height: 57px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -43,7 +43,7 @@
 .search-bar {
   flex: 1;
   padding: 1px 2px 1px 12px;
-  height: 36px;
+  height: 40px;
   font-size: 16px;
   border: 1px solid rgb(204, 204, 204);
   border-radius: 2px;
@@ -57,16 +57,13 @@
 }
 
 .search-button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 39.6px;
   width: 64px;
+  height: 40px;
   background-color: #f8f8f8;
   border: 1px solid rgb(204, 204, 204);
   border-radius: 2px;
   margin-right: 8px;
-  margin-left: -3px;
+  margin-left: -10px;
 }
 
 .search-button,
@@ -86,7 +83,6 @@
 .upload-icon-box .tooltip,
 .youtube-apps-icon-box .tooltip,
 .notifications-icon-box .tooltip {
-  font-family: Roboto, Arial, sans-serif;
   background-color: rgb(117, 117, 117);
   color: white;
   padding: 10px 8px 10px;
@@ -158,7 +154,6 @@
   background-color: rgb(206, 6, 6);
   color: white;
   font-size: 10px;
-  font-family: Roboto, Arial, sans-serif;
   padding: 1px 4px 1px;
   border: 2px solid white;
   border-radius: 12px;

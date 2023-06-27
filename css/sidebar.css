@@ -21,7 +21,7 @@
 
 .sidebar img {
   height: 24px;
-  margin-bottom: 7px;
+  margin-bottom: 5px;
 }
 
 .sidebar-link:hover {
@@ -29,7 +29,6 @@
 }
 
 .sidebar-link div {
-  font-family: Roboto, Arial, sans-serif;
   font-size: 10px;
   text-align: center;
 }
