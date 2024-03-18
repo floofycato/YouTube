@@ -1,5 +1,5 @@
-# YouTube
+# YouTube Clone
 
-This is my working directory for the YouTube page along with some exercises that helped me complete the page.
+A simplified version of YouTube's Home Page. Created using HTML & CSS.
 
-Credits to SimpleWebDev for his superb YouTube tutorial.
+View Page Here: https://floofycato.github.io/YouTube-Clone/
